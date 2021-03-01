@@ -43,7 +43,7 @@ public class GitDemo {
         
         while( num != 0 ) {
             double temp = num % 10;
-            newNumber = nnewNumber * 10 + temp;
+            newNumber = newNumber * 10 + temp;
             num /= 10;
         }        
         
